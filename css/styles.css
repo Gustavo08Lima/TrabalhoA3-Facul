@@ -18,15 +18,17 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 400px; /* Aumenta a altura da imagem */
+    height: 600px; /* Aumenta a altura da imagem */
     overflow: hidden;
     z-index: -1;
+    max-height: 100%;
 }
 
 .header-image-overlay img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+   
 }
 
 .header-image-overlay .overlay {
@@ -87,7 +89,7 @@ section {
 }
 
 section:hover {
-    transform:  scale(1.05);
+    transform:  scale(0.9);
     transition: 2s;
 }
 
