@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(100, 73, 22, 0.861), rgb(33, 32, 32));
+    background-image: linear-gradient(to top, rgba(84, 65, 29, 0.861), rgb(33, 32, 32));
     font-family: Arial, sans-serif;
     margin: 0;
 }
